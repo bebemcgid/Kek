@@ -133,6 +133,13 @@ header {
   .adress_footer a {
     color: white;
   }
+
+@media screen and (max-width: 900px) {
+    header a {
+        font-size: 15px;
+    }
+}
+
 @media handheld {
     header a {
         font-size: 1.8vw;
@@ -149,3 +156,4 @@ header {
   }
   
   
+
