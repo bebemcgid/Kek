@@ -38,9 +38,9 @@ header {
   
   #overGradient img {
     width: 30%;
-    height: auto;
     max-height: 120px;
     max-width: 140px;
+    height: auto;
   }
   
   #menu {
