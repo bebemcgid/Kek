@@ -38,10 +38,10 @@ header {
   
   #overGradient img {
     width: 30%;
+    height: auto;
     max-height: 120px;
     max-width: 140px;
-    height: auto !important;
-    margin-left: 12%;
+    margin-left: 3%;
   }
   
   #menu {
@@ -69,7 +69,7 @@ header {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: 4fr repeat(4, 1fr);
     padding: 0 2%;
-    height: 9vh;
+    height: 14vw;
     align-items: center;
     justify-content: center;
     z-index: 1000;
@@ -141,9 +141,13 @@ header {
     }
 }
 
-@media handheld {
+@media screen and (max-width: 900px) {
     header a {
         font-size: 1.8vw;
+    }
+    
+    footer {
+        height: 13vh;
     }
     
 }
@@ -157,4 +161,3 @@ header {
   }
   
   
-
